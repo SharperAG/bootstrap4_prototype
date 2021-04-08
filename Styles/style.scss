@@ -11,3 +11,13 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
+
+.card {
+  box-shadow: 1px -2px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $Serenity;
+    transform: translateY(-5px);
+  }
+}
